@@ -1,6 +1,6 @@
 html {
 	height: 100%;
-	background-color: rgb(56, 0, 94)
+	background-color: rgb(172, 176, 226)
 }
 
 body {
@@ -13,6 +13,10 @@ body {
 	display: none;
 }
 
+h3
+{
+	padding: auto;
+}
 .head__item {
 	color: #7c7c7c;
 }
@@ -29,7 +33,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	padding-bottom: 20px;
-	background-color: #4e0679;
+	background-color: #7b7cdb;
 }
 
 .flower
@@ -91,7 +95,7 @@ main {
 	justify-content: center;
 	width: 100%;
 	margin: auto;
-	background-color: #620896;
+	background-color: #7b7cdb;
 }
 
 ol {
@@ -155,7 +159,7 @@ footer
 @media (min-width: 768px)
 {
 	main {
-		background-color: #620896;
+		background-color: #7b7cdb;
 		width: 50%;
 		
 
