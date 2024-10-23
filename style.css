@@ -54,7 +54,7 @@ h3
 
 .h1__mobile
 {
-	padding-right: 25%;
+	margin-right: 5%;
 }
 
 .head__item__mobile
@@ -90,12 +90,19 @@ li
 	margin: 0;
 	padding: 0;
 }
+.container__table
+{
+	order: -1;
+}
 
 main {
-	justify-content: center;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	margin: auto;
 	background-color: #7b7cdb;
+	margin-top: 20px;
+	border-radius: 10px;
 }
 
 ol {
@@ -145,8 +152,10 @@ a {
 
 footer
 {
-	padding-top: 100px;
+	margin-top: 50px;
 	font-size: 30px;
+	background-color: #7b7cdb;
+
 }
 
 #biography
@@ -183,5 +192,10 @@ footer
 		display: content;
 	}
 	
+	.container__table
+	{
+		order: 0;
+	}
+
 
 }
